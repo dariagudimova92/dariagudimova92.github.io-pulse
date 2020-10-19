@@ -1,0 +1,135 @@
+@media (max-width: 767px) {
+  .advantages {
+    &__wrapper {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    &__subtitle {
+      font-size: 22px;
+    }
+    &__descr {
+      width: 400px;
+      font-size: 17px;
+      margin-bottom: 35px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+
+  .title_left {
+      text-align: center;
+    }
+
+  .consultation__descr {
+    text-align: center;
+  }
+
+  .feed-form {
+    align-items: center;
+    width: 100%;
+  }
+
+  .button_submit {
+    width: 40%;
+  }
+
+  .catalog__content {
+    justify-content: space-around;
+  }
+  .feed__item {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .overly {
+    .button_submit {
+      width: 100%;
+    }
+    input {
+      width: 100%;
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+  .advantages {
+    &__descr {
+      width: 350px;
+    }
+    .title {
+      font-size: 23px;
+    }
+  }
+
+  .promo {
+    .header__official {
+      display: none;
+    }
+    .header__logo {
+      width: 230px;
+    }
+    .header__phone {
+      font-size: 15px;
+    }
+    .header__contacts {
+      margin-right: 19px;
+    }
+    &__wrapper {
+      margin-top: 65px;
+    }
+    &__header {
+      font-size: 30px;
+    }
+    &__subheader {
+      font-size: 18px;
+    }
+    &__icons {
+      width: 375px;
+    }
+  }
+
+
+  .title_left {
+    font-size: 22px;
+  }
+
+  .consultation__descr {
+    font-size: 16px;
+  }
+
+  .feed-form {
+    align-items: center;
+    width: 100%;
+  }
+
+  .button_submit {
+    width: 67%;
+  }
+
+  .carousel__inner {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .feed__item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feed__text {
+    padding: 0;
+  }
+  .feed__subtitle {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .feed__count {
+    text-align: center;
+  }
+
+}
